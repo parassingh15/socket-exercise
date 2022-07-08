@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    overflow: auto;
+    background-image: url('bgg.jpg'); 
+    
+    
+}
+
+.main-box{
+    background-color: rgb(224, 224, 218);
+    height: 80vh;
+    overflow: auto;
+    background-image: url('bg.jpg');
+    
+}
+
+
+.main-box::-webkit-scrollbar{
+    display: none;
+}
+
+.top{
+    width: 75%;
+}
+
+.sendMsg{
+    display: flex;
+    width: 76%;
+    margin-top: 20px;
+
+}
+.input{
+    
+    margin-right: 2%;
+}
+
+.head{
+    background-color: rgb(255, 255, 255);
+    display: inline;
+    color: black;
+}
